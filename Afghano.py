@@ -418,7 +418,7 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		os.system("clear")
-		print(logo)
+		jalan(logo)
 		print("")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
 		print("\033[1;32mNOTE : APPROVAL K LIYE FACEBOOK PR FOLLOW KR DEN")
@@ -447,7 +447,7 @@ class Main:
 			print("\033[1;92m WELCOME")
 			time.sleep(1.0)
 			os.system("clear")
-		print(logo)
+		jalan(logo)
 		print("")
 		print ("\033[1;36m         WELCOM")
 		print("\033[1;37m- - - - - - - - - - - - - - - - - - - - - - - - - - -")
@@ -458,6 +458,7 @@ class Main:
 		print(" \33[1;94m[5] 2010 To 2015 ")
 		print("\033[1;32m [E] Exit \n")
 		UZAIR =input(" \033[1;91mCHOOSE : ")
+		jalan(logo)
 		if UZAIR in ["1", "01"]:
 			File()
 		if UZAIR in ["2", "02"]:
